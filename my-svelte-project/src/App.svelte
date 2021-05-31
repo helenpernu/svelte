@@ -20,5 +20,13 @@
 <main>
     <input bind:value={newItem} type="text" placeholder="new todo item..">
 <button on:click={addToList}>Add</button>
+
+<br/>
+{#each todoList as item, index}
+    <input bind:checked={item.status} type="checkbox">
+    <span class:checked={item.status}>{item.text}</span>
+    <span on:click={() => removeFromList(index)}>🗑️</span>
+    <br/>
+{/each} 
  
 </main>
