@@ -16,3 +16,9 @@
     }
 
 </script>
+
+<main>
+    <input bind:value={newItem} type="text" placeholder="new todo item..">
+<button on:click={addToList}>Add</button>
+ 
+</main>
