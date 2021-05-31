@@ -52,7 +52,7 @@
     }
  
     body {
-        background-image: url("https://lh3.googleusercontent.com/proxy/Y5_7dj4SfWauVV8p14TeF3Ipv6aGbIB0fJxq96aFnwcUkCvjFyr3QZ36pb70f11ASbqfcQekNttP5qFyVv-erVhKQt0uqdhlmNVufy6Q9g");
+        background-image: url("https://hdwallsbox.com/wallpapers/s/25/minimalistic-something-do-s24457.jpg");
         background-size:50%
     }
  
