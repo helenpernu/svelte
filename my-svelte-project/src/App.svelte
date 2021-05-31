@@ -1,5 +1,7 @@
+<!--booleans och functions-->
 <script>
     let newItem = "";
+    
     
     let todoList = [{text: "Städa rummet", status: true},
                     {text: "Plugga kemi", status: false},
@@ -17,6 +19,7 @@
 
 </script>
 
+<!--här skriver jag bindnings, man kan ändra texten till vad man vill-->
 <main>
     <input bind:value={newItem} type="text" placeholder="new todo item..">
 <button on:click={addToList}>Add</button>
@@ -35,8 +38,10 @@
     
 </body>
 
+<!-- .checked gör så att checkar allt som jag har skrivit checked (t.ex item),
+det första den gör när sidan laddas-->
 <style> 
-    .checked {
+    .checked {  
         text-decoration: line-through;
     }
  
