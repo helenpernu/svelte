@@ -9,4 +9,10 @@
         todoList = [...todoList, {text: newItem, status: false}];
         newItem = "";
     }
+
+    function removeFromList(index) {
+        todoList.splice(index, 1)
+        todoList = todoList;
+    }
+
 </script>
